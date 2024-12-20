@@ -1,0 +1,9 @@
+/give Dev epicpaladins:angel_boots
+/give Dev epicpaladins:angel_chestplate
+/give Dev epicpaladins:angel_helmet
+/give Dev epicpaladins:angel_leggings
+/give Dev epicpaladins:angel_boots
+/give Dev epicpaladins:angel_chestplate
+/give Dev epicpaladins:angel_helmet
+/give Dev epicpaladins:angel_leggings
+/give Dev epicpaladins:angel_sword

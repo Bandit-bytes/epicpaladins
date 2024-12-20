@@ -1,0 +1,16 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-19 21:05:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2024-12-19 21:17:09 -0500",
+      "minecraft:snowy_plains": "2024-12-19 21:05:05 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

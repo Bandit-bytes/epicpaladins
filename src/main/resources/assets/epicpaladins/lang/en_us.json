@@ -1,0 +1,11 @@
+{
+  "itemGroup.epicpaladins": "Example Mod Tab",
+  "block.epicpaladins.example_block": "Example Block",
+  "item.epicpaladins.angel_helmet": "Angel helmet",
+  "item.epicpaladins.angel_chestplate": "Angel chestplate",
+  "item.epicpaladins.angel_leggings": "Angel Leggings",
+  "item.epicpaladins.angel_boots": "Angel Boots",
+  "item.epicpaladins.angel_sword": "Angel Sword",
+
+  "itemGroup.items.epicpaladins": "Epic Paladins"
+}
