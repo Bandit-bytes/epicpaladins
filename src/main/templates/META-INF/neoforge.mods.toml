@@ -79,9 +79,9 @@ side = "BOTH"
 #openGLVersion="[3.2,)"
 
 [[dependencies."${mod_id}"]]
-modId="azurelib"
+modId="geckolib"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange="${azurelib_version_range}"
+versionRange="${geckolib_version}"
 ordering="NONE"
 side="BOTH"

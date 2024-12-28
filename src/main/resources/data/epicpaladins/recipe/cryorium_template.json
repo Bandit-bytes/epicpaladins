@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:gems/cryorium"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "T": {
+      "item": "epicpaladins:cryorium_template"
+    }
+  },
+  "pattern": [
+    "#T#",
+    "#N#",
+    "###"
+  ],
+  "result": {
+    "id": "epicpaladins:cryorium_template",
+    "count": 2
+  }
+}

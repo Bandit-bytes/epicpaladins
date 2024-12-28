@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:ingots/steel"
+  },
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "result": {
+    "id": "epicpaladins:assassin_boots"
+  },
+  "template": {
+    "item": "epicpaladins:steel_template"
+  }
+}

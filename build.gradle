@@ -28,6 +28,12 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
 }
 
 base {
@@ -114,21 +120,19 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
 dependencies {
-    // Example mod dependency with JEI
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
+
+
+
+// GECKOLIB ***************************************************************************************************
+    compileOnly "software.bernie.geckolib:geckolib-neoforge-${geckolib_version}"
+    runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${geckolib_version}"
+
+
+    // JEI ********************************************************************************************************
     compileOnly "mezz.jei:jei-1.21-common-api:${jei_version}"
     compileOnly "mezz.jei:jei-1.21-neoforge-api:${jei_version}"
     runtimeOnly "mezz.jei:jei-1.21-neoforge:${jei_version}"
-    implementation "mod.azure.azurelib:azurelib-neo-${minecraft_version}:${azurelib_version}"
 
-//    // Geckolib
-//    compileOnly "software.bernie.geckolib:geckolib-neoforge-${geckolib_version}"
-//    runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${geckolib_version}"
-
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
 
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
@@ -154,6 +158,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
                              mod_license            : mod_license,
                              mod_version            : mod_version,
                              mod_authors            : mod_authors,
+                             geckolib_version       : geckolib_version,
                              mod_description        : mod_description,
             azurelib_version_range : azurelib_version
     ]

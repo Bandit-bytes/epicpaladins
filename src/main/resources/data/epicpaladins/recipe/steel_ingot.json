@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "epicpaladins:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "epicpaladins:steel_ingot"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:ingots/steel"
+  },
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "result": {
+    "id": "epicpaladins:assassin_helmet"
+  },
+  "template": {
+    "item": "epicpaladins:steel_template"
+  }
+}
